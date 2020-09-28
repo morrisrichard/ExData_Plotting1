@@ -1,5 +1,5 @@
 
-# Read in the data (assuming you data is in a foler "data" in your working directory)
+# Read in the data (assuming you data is in a folder "data" in your working directory)
 hpc <- read.table(unz("./data/exdata_data_household_power_consumption.zip", 
                       "household_power_consumption.txt"), header=T, sep = ";")
 
